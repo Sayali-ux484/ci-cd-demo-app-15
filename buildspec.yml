@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No installation required for static website"
+
+  build:
+    commands:
+      - echo "Building static website..."
+      - echo "Nothing to compile"
+
+  post_build:
+    commands:
+      - echo "Build completed successfully"
+
+artifacts:
+  files:
+    - index.html
+    - style.css
+    - script.js
