@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("🚀 CI/CD Pipeline is working successfully!");
+    alert(" CI/CD Pipeline is working successfully!");
 }
